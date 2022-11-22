@@ -1,0 +1,42 @@
+.footer {
+    background-color: #f8f8f8;
+    padding: 0 3%;
+    height: 60px;
+    width: 80%;
+    max-width: 500px;
+    margin: auto;
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 20px #a8a8a869;
+    z-index: 9;
+}
+
+.footer li {
+    list-style: none;
+}
+
+.footer img {
+    cursor: pointer;
+    width: 35px;
+}
+
+.footer .profile {
+    width: 50px;
+    border-radius: 50px;
+}
+.active {
+    fill: #f62355;
+}
+.inactive {
+    fill: #d4d4d4;
+}
+
+.footer svg {
+    transform: scale(.8);
+}
