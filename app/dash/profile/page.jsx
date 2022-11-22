@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import Post from "../../../components/post";
+import Post from "../../../components/Post";
 import styles from "../../../styles/profile.module.css";
 
 const getData = async () => {};
